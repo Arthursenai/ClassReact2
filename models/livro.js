@@ -9,7 +9,7 @@ class Livro {
         return `O livro ${this.titulo} foi escrito por ${this.autor} e tem ${this.ano} ano`;
     }
     generateId(){
-        return Math.floor(Math.random() * 1000);
+        return Math.floor(Math.random() * 1001);
     }
 }
 
